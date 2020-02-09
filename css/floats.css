@@ -24,35 +24,17 @@ a {
   display: block;
 }
 
-.row1 {
-  float: left;
-  width: 100%;
-  background-color: pink;
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.row2 {
-  float: left;
-  width: 100%;
-  background-color: yellow;
-}
-.row2 .item2 {
-  float: right;
-}
-.item1 {
-  float: left;
-  width: 200px;
-}
-.item2 {
-  float: left;
-  width: 200px;
-}
-.item3 {
-  float: right;
-  width: 200px;
-}
-.item4 {
-  float: right;
-  width: 200px;
+[class*="col-"] {
+  widows: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+  min-height: 1px;
 }
 
 div img {
