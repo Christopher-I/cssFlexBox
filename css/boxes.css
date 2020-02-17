@@ -16,3 +16,7 @@ li {
   margin: 0.5em;
   padding: 0.5em;
 }
+.columns {
+  display: flex;
+  flex-direction: column;
+}
