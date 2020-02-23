@@ -30,3 +30,8 @@ li {
   display: table;
   align: center;
 }
+
+.header {
+  align: center;
+  font-size: 40px;
+}
