@@ -7,6 +7,13 @@ html {
 *:after {
   box-sizing: inherit;
 }
+.background {
+  background-color: #00c4c7;
+  display: grid;
+  @media (min-width: "980px") {
+    display: flex;
+  }
+}
 body {
   font-family: "Cabin", Arial, Geneva, sans-serif;
   background-image: url(../img/clouds.png);
